@@ -2,6 +2,7 @@ INSERT INTO users (username, password, type)
 VALUES ('alice', '2bd806c97f0e00af1a1fc3328fa763a9269723c8db8fac4f93af71db186d6e90', 'admin'),
   ('bob', '81b637d8fcd2c6da6359e6963113a1170de795e4b725b84d1e0b4cfd9ec58ce9', 'user'),
   ('carol', '4c26d9074c27d89ede59270c0ac14b71e071b15239519f75474b2f3ba63481f5', 'user'),
+  ('test', 'test', 'user'),
   ('dave', '61ea0803f8853523b777d414ace3130cd4d3f92de2cd7ff8695c337d79c2eeee', 'user');
 
 
