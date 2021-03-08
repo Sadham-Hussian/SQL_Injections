@@ -27,16 +27,3 @@ def init_db():
 		with app.open_resource('database_scripts/data.sql', mode='r') as f:
 			db.cursor().executescript(f.read())
 		db.commit()
-
-# def get_database_connection(cursorclass=pymysql.cursors.DictCursor):
-
-#     if 'db_connection' not in g:
-#         DATABASE = config.DATABASE
-        
-#         g.db_connection = pymysql.connect(host=DATABASE["HOST"],
-#                             user=DATABASE["USER"],
-#                             password=DATABASE["PASSWORD"],
-#                             db=DATABASE["NAME"],
-#                             charset='utf8mb4',
-#                             cursorclass=cursorclass)
-#     return g.db_connection
